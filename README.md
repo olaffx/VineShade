@@ -1,5 +1,5 @@
 # 🍷 VineShade
-The ultimate shader software for Roblox on Linux **(Sober)**
+First shader software for Roblox on Linux!
 
 Vineshade is a lightweight, ReShade-like launcher designed specifically for Sober (the x86_64 Roblox Android runtime). It's optimized to hit 240 FPS on NVIDIA hardware.
 
