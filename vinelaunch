@@ -1,0 +1,21 @@
+#!/bin/bash
+# 🍷 VineShade Official Launcher
+
+export VKBASALT_SHADER_PATH="$HOME/reshade-shaders/Shaders:$HOME/AstrayFX/Shaders"
+export VKBASALT_TEXTURE_PATH="$HOME/reshade-shaders/Textures:$HOME/AstrayFX/Textures"
+
+
+killall -9 sober Sober 2>/dev/null
+rm -rf ~/.var/app/org.vinegarhq.Sober/cache/sober/nv 2>/dev/null
+rm -rf ~/.nv/GLCache 2>/dev/null
+
+
+export VKBASALT_CONFIG_FILE="./vkBasalt.conf"
+
+flatpak run \
+  --env=ENABLE_VKBASALT=1 \
+  --env=__GL_MaxFramesAllowed=1 \
+  --env=__GL_YIELD=NOTHING \
+  --env=reshadeIncludePath="$VKBASALT_SHADER_PATH" \
+  --env=reshadeTexturePath="$VKBASALT_TEXTURE_PATH" \
+  org.vinegarhq.Sober
