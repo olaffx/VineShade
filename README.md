@@ -6,16 +6,8 @@ First shader software for Roblox on Linux!
 
 Vineshade is a lightweight launcher designed for Sober. It's optimized to hit 240 FPS on most hardware.
 
-**Before running VineShade, please change the effect names in vkBasalt.conf file.**
-
 > [!NOTE]
 > This project is **not** discontinued.
-
-## ⬇️ Install Script
-
-`curl -L https://raw.githubusercontent.com/olaffx/VineShade/refs/heads/main/vinelaunch | bash`
-
-**Make sure you used the `chmod +x vinelaunch` command.**
 
 ## 🍎 macOS version
 
@@ -61,32 +53,6 @@ Ensure you have vkBasalt installed on your system.
 
 Put the vkBasalt.conf file in .config folder.
 
-**2. Effects**
-
-Get any effects you want to use.
-
-**Recommended effect repositories**
-
-https://github.com/crosire/reshade-shaders
-
-https://github.com/BlueSkyDefender/AstrayFX
-
-**3. Adding the effects**
-
-To make them recognizable, use this path:
-
-`SHADERS_DIR="$HOME/reshade-shaders/Shaders"`
-`TEXTURES_DIR="$HOME/reshade-shaders/Textures"`
-
-**4. Making the launcher executable**
-
-To make the main launcher open, please use this command in your terminal. This will make the launcher executable.
-
-`chmod +x vinelaunch`
-
-Once you have installed the prerequisites and set your effects, simply run the launcher from your terminal:
-
-`./vinelaunch`
 
 **4. Legal & Credits**
 
