@@ -115,11 +115,7 @@ Yes, it does. Make sure your effect does not need depth buffer access.
 
 **Can i try getting depth buffer access?**
 
-Yes, you can. Effects like SSR won't work because they are too heavy.
-
-# ⚠️ Note on Depth Buffer
-
-**While you can try to enable depth buffer access in vkBasalt.conf (depthCapture = on) and (copyDepthBuffer = on), be aware that the Roblox Android runtime often masks the depth buffer to save mobile bandwidth.**
+No, until we try porting it. (will be very difficult though)
 
 # ⭐ Support the Project
 
