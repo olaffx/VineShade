@@ -5,6 +5,25 @@ Vineshade is a lightweight, ReShade-like launcher designed specifically for Sobe
 
 **Before running VineShade, please change the effect names in vkBasalt.conf file.**
 
+> [!NOTE]
+> This project is **not** discontinued.
+
+## 🍎 macOS version
+
+VineShade is natively built for Linux/Sober. If you are on a Mac, we recommend using **AppleBlox**, a lightweight bootstrapper inspired by Bloxstrap.
+
+**How to get better graphics on macOS**
+1. Download **[AppleBlox](https://github.com/AppleBlox/appleblox)**.
+2. Go to the **FastFlags**.
+3. Enable these flags for the best experience!
+   * `FIntRenderShadowIntensity` -> `100` **(Deeper Shadows)**
+   * `DFIntTaskSchedulerTargetFps` -> `240 or more` **(Unlock FPS)**
+
+**Note:** macOS does not support vkBasalt.
+Get [Parallels](https://www.parallels.com/products/desktop/),
+[VMware Fusion](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion),
+or [UTM](https://mac.getutm.app/)
+
 # 🛠️ Installation
 
 **1. Prerequisites**
