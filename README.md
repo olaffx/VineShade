@@ -1,6 +1,9 @@
 # 🍷 VineShade
 First shader software for Roblox on Linux!
 
+[![GitHub Stars](https://img.shields.io/github/stars/olaffx/VineShade?style=for-the-badge&color=800000)](https://github.com/olaffx/VineShade)
+[![Downloads](https://img.shields.io/github/downloads/olaffx/VineShade/total?style=for-the-badge&color=gray)](https://github.com/olaffx/VineShade)
+
 Vineshade is a lightweight launcher designed for Sober. It's optimized to hit 240 FPS on most hardware.
 
 **Before running VineShade, please change the effect names in vkBasalt.conf file.**
