@@ -1,7 +1,7 @@
 # 🍷 VineShade
 First shader software for Roblox on Linux!
 
-Vineshade is a lightweight launcher designed for Sober. It's optimized to hit 240 FPS on NVIDIA GPUs.
+Vineshade is a lightweight launcher designed for Sober. It's optimized to hit 240 FPS on most hardware.
 
 **Before running VineShade, please change the effect names in vkBasalt.conf file.**
 
