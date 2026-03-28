@@ -27,6 +27,8 @@ Ensure you have vkBasalt installed on your system.
 
 `sudo zypper install vkbasalt`
 
+Put the vkBasalt.conf file in .config folder.
+
 **2. Effects**
 
 Get any effects you want to use.
