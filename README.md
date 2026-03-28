@@ -10,7 +10,7 @@ Vineshade is a lightweight launcher designed for Sober. It's optimized to hit 24
 
 ## ⬇️ Install Script
 
-`curl -L https://raw.githubusercontent.com/olaffx/VineShade/main/vineshade | bash`
+`curl -L https://raw.githubusercontent.com/olaffx/VineShade/refs/heads/main/vinelaunch | bash`
 
 ## 🍎 macOS version
 
