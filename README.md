@@ -33,6 +33,10 @@ Get [Parallels](https://www.parallels.com/products/desktop/),
 [VMware Fusion](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion),
 or [UTM](https://mac.getutm.app/)
 
+# 🎮 Steam Deck support
+
+**VineShade is fully compatible with the Steam Deck. It fixes the blur caused by Sober's scaling on the 800p display.**
+
 # 🛠️ Installation
 
 **1. Prerequisites**
