@@ -1,0 +1,92 @@
+#!/bin/bash
+
+VERSION="1.1.0"
+CONFIG_PATH="$HOME/.config/vkBasalt/vkBasalt.conf"
+
+show_help() {
+    echo "VineLaunch - v$VERSION"
+    echo "Usage: ./vinelaunch [options]"
+    echo ""
+    echo "Options:"
+    echo "  --check    Verify dependencies"
+    echo "  --info     Show system specs"
+    echo "  --version  Show version"
+    echo "  --help     Show this message"
+}
+
+check_deps() {
+    if [ -f "/usr/share/vulkan/implicit_layer.d/vkBasalt.json" ] || \
+       [ -f "/usr/local/share/vulkan/implicit_layer.d/vkBasalt.json" ] || \
+       [ -f "$HOME/.local/share/vulkan/implicit_layer.d/vkBasalt.json" ] || \
+       [ -f "/usr/share/vulkan/explicit_layer.d/vkBasalt.json" ]; then
+        echo "vkBasalt: FOUND"
+    else
+        echo "vkBasalt: MISSING"
+    fi
+
+    if [ -f "$CONFIG_PATH" ]; then
+        echo "Config: FOUND at $CONFIG_PATH"
+    else
+        echo "Config: MISSING"
+    fi
+
+    if command -v sober >/dev/null 2>&1 || flatpak list | grep -q "org.vinegarhq.Sober"; then
+        echo "Sober: FOUND"
+    else
+        echo "Sober: NOT DETECTED"
+    fi
+}
+
+show_info() {
+    echo "VineLaunch System Info"
+    echo "----------------------"
+    echo "Kernel: $(uname -r)"
+    
+    if command -v glxinfo >/dev/null 2>&1; then
+        echo "GPU: $(glxinfo | grep -E "OpenGL vendor|OpenGL renderer" | head -n 1 | cut -d: -f2 | xargs)"
+    fi
+    
+    if command -v vulkaninfo >/dev/null 2>&1; then
+        echo "Vulkan Device: $(vulkaninfo --summary | grep "deviceName" | head -n 1 | cut -d: -f2 | xargs)"
+    fi
+}
+
+launch_sober() {
+    export ENABLE_VKBASALT=1
+    echo "VineShade is enabled."
+    if flatpak list | grep -q "org.vinegarhq.Sober"; then
+        flatpak run org.vinegarhq.Sober
+    elif command -v sober >/dev/null 2>&1; then
+        sober
+    else
+        echo "Error: Sober not found."
+        exit 1
+    fi
+}
+
+case "$1" in
+    --check)
+        check_deps
+        exit 0
+        ;;
+    --info)
+        show_info
+        exit 0
+        ;;
+    --version)
+        echo "$VERSION"
+        exit 0
+        ;;
+    --help)
+        show_help
+        exit 0
+        ;;
+    "")
+        launch_sober
+        ;;
+    *)
+        show_help
+        exit 1
+        ;;
+esac
+esac
