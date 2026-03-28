@@ -54,7 +54,7 @@ Ensure you have vkBasalt installed on your system.
 Put the vkBasalt.conf file in .config folder.
 
 
-**4. Legal & Credits**
+**2. Legal & Credits**
 
 VineShade is an independent community project.
 
@@ -66,7 +66,7 @@ VineShade is an independent community project.
     
 **This software is provided "as is" under the MIT License. Use at your own risk. VineShade is not responsible for any account bans or hardware issues, though it is designed with safety and stability as a priority.**
 
-**5. FAQ**
+**3. FAQ**
 
 **Does this work on AMD?**
 
