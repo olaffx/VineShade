@@ -12,6 +12,8 @@ Vineshade is a lightweight launcher designed for Sober. It's optimized to hit 24
 
 `curl -L https://raw.githubusercontent.com/olaffx/VineShade/refs/heads/main/vinelaunch | bash`
 
+**Make sure you used the `chmod +x vinelaunch` command.**
+
 ## 🍎 macOS version
 
 VineShade is natively built for Linux/Sober. If you are on a Mac, we recommend using **AppleBlox**, a lightweight bootstrapper inspired by Bloxstrap.
@@ -73,11 +75,11 @@ To make them recognizable, use this path:
 
 To make the main launcher open, please use this command in your terminal. This will make the launcher executable.
 
-`chmod +x vineshade`
+`chmod +x vinelaunch`
 
 Once you have installed the prerequisites and set your effects, simply run the launcher from your terminal:
 
-`./vineshade`
+`./vinelaunch`
 
 **4. Legal & Credits**
 
