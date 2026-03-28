@@ -85,3 +85,23 @@ No, VineShade uses no injection methods.
 **Is it safe?**
 
 Yes, VineShade is 100% safe. You can inspect the code very easily.
+
+**Can you use .ini Reshade preset files in VineShade?**
+
+No. Windows presets are built for the ReShade GUI.
+
+**Does Reshade effects (.fx and .fxh) work on VineShade?**
+
+Yes, it does. Make sure your effect does not need depth buffer access.
+
+**Can i try getting depth buffer access?**
+
+Yes, you can. Effects like SSR won't work because they are too heavy.
+
+# ⚠️ Note on Depth Buffer
+
+**While you can try to enable depth buffer access in vkBasalt.conf (depthCapture = on) and (copyDepthBuffer = on), be aware that the Roblox Android runtime often masks the depth buffer to save mobile bandwidth.**
+
+# ⭐ Support the Project
+
+**If VineShade improved your Roblox experience on Linux, please consider Starring this repository! It helps the project grow and helps other Linux gamers find a better way to play.**
