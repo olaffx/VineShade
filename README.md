@@ -9,9 +9,7 @@ Vineshade is a lightweight launcher designed for Sober. It's optimized to hit 24
 > [!NOTE]
 > This project is **not** discontinued.
 
-**Official Subreddit:**
-
-https://www.reddit.com/r/VineShade/
+[**Our subreddit**](https://www.reddit.com/r/VineShade/)
 
 ## macOS version
 
