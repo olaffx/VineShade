@@ -9,6 +9,10 @@ Vineshade is a lightweight launcher designed for Sober. It's optimized to hit 24
 > [!NOTE]
 > This project is **not** discontinued.
 
+**Official Subreddit:**
+
+https://www.reddit.com/r/VineShade/
+
 ## macOS version
 
 VineShade is natively built for Linux/Sober. If you are on a Mac, we recommend using **AppleBlox**, a lightweight bootstrapper inspired by Bloxstrap.
