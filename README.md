@@ -1,4 +1,4 @@
-# 🍷 VineShade
+# VineShade
 First shader software for Roblox on Linux!
 
 [![Stars](https://img.shields.io/github/stars/olaffx/VineShade?style=for-the-badge&logo=github&color=800000&logoColor=white)](https://github.com/olaffx/VineShade/stargazers)
@@ -9,7 +9,7 @@ Vineshade is a lightweight launcher designed for Sober. It's optimized to hit 24
 > [!NOTE]
 > This project is **not** discontinued.
 
-## 🍎 macOS version
+## macOS version
 
 VineShade is natively built for Linux/Sober. If you are on a Mac, we recommend using **AppleBlox**, a lightweight bootstrapper inspired by Bloxstrap.
 
@@ -25,11 +25,11 @@ Get [Parallels](https://www.parallels.com/products/desktop/),
 [VMware Fusion](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion),
 or [UTM](https://mac.getutm.app/)
 
-# 🎮 Steam Deck support
+# Steam Deck support
 
 **VineShade is fully compatible with the Steam Deck. It fixes the blur caused by Sober's scaling on the 800p display.**
 
-# 🛠️ Installation
+# Installation
 
 **1. Prerequisites**
 
@@ -96,6 +96,6 @@ Yes, it does. Make sure your effect does not need depth buffer access.
 
 No, until we try porting it. (will be very difficult though)
 
-# ⭐ Support the Project
+# Support the Project
 
 **If VineShade improved your Roblox experience on Linux, please consider Starring this repository! It helps the project grow and helps other Linux gamers find a better way to play.**
