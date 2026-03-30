@@ -1,5 +1,5 @@
 # VineShade
-First shader software for Roblox on Linux!
+Roblox shaders on Linux
 
 [![Stars](https://img.shields.io/github/stars/olaffx/VineShade?style=for-the-badge&logo=github&color=800000&logoColor=white)](https://github.com/olaffx/VineShade/stargazers)
 [![Downloads](https://img.shields.io/github/downloads/olaffx/VineShade/total?style=for-the-badge&logo=github&color=800000&logoColor=white)](https://github.com/olaffx/VineShade/releases)
