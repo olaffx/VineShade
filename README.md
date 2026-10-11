@@ -7,7 +7,7 @@ Roblox shaders on Linux
 Vineshade is a lightweight launcher designed for Sober. It's optimized to hit 240 FPS on most hardware.
 
 > [!NOTE]
-> This project is **not** discontinued.
+> This project **is** discontinued.
 
 [**Our subreddit**](https://www.reddit.com/r/VineShade/)
 
